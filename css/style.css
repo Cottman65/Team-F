@@ -2,7 +2,8 @@ body, html {
     margin: 0;
     padding:0;
     background-color: #f2d9a5;
-    color:azure;
+    color: #000;
+    font-size: 1.2em;
 }
 
 header {
@@ -18,7 +19,7 @@ h1 {
     margin-left: 2%;
     margin-top: 10px;
     font-family:Arial, Helvetica, sans-serif;
-    color: #000;
+    color: #fff;
 }
 
 span {
@@ -50,7 +51,7 @@ a:hover {
 }
 
 img {
-    width: 100%;
+    width: 10%;
     margin-top: -1;
 }
 
@@ -106,4 +107,17 @@ footer {
     font-size: 18px;
     word-spacing: 2px;
     text-transform: capitalize;
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.p h2 {
+    text-align: center;
+    width: 75%;
+    margin: auto;
 }
