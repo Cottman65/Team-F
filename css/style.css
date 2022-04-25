@@ -93,7 +93,7 @@ li{
 	float: left;
 }
 
-.footer-content{
+.footer-content p{
 	background-color: #510f58;
 	width: fit-content;
 }
