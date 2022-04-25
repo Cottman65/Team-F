@@ -87,3 +87,8 @@ ul{
 li{
 	display: inline;
 }
+
+.nav-element{
+	display: block;
+	padding: 4px;
+}
