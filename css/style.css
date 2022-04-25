@@ -92,3 +92,8 @@ li{
 	padding: 4px;
 	float: left;
 }
+
+.footer-content{
+	background-color: #510f58;
+	width: fit-content;
+}
