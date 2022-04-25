@@ -1,64 +1,53 @@
-body, html {
-    margin: 0;
-    padding:0;
-    background-color: #f2d9a5;
-    color: #000;
-    font-size: 1.2em;
+/*
+	Author:			Colee Cottrell
+	Assignment:		Personal Page
+	Date:			4/20/2022
+	Purpose:		Creating my personal webpage
+*/
+
+body, p {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: #f2d9a5;
+	color: #000;
 }
 
 header {
-    width: 100%;
-    height: 70px;
-    background-color: #ffa600;
+	height: 50px;
+	background-color: #ffa600;
+	color: #fff;
+	padding: 25px 0;
 }
 
-h1 {
-    position: absolute;
-    padding: 3px;
-    float: left;
-    margin-left: 2%;
-    margin-top: 10px;
-    font-family:Arial, Helvetica, sans-serif;
-    color: #fff;
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
 }
 
-span {
-    color: #fff;
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
 }
 
-ul {
-    width: auto;
-    float: right;
-    margin-top: 8px;
+.clearBoth {
+	clear: both;
 }
 
-li {
-    display: inline-block;
-    padding: 15px 30px;
+h1, h2, h3 {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	border-bottom: 2px solid;
+	color: #000;
 }
 
-a {
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2vw;
-}
-
-a:hover {
-    color: #f0c330;
-    transition: 0.5s;
-}
-
-img {
-    width: 10%;
-    margin-top: -1;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header h1, header h2 {
+	border-width: 0;
+	color: #fff;
 }
 
 footer {
@@ -74,28 +63,6 @@ footer {
     color: #fff;
 }
 
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: unset;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h3 {
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-
-.footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 16px;
-}
-
 .footer-bottom {
     background: #510f58;
     width: 100vw;
@@ -107,17 +74,6 @@ footer {
     font-size: 18px;
     word-spacing: 2px;
     text-transform: capitalize;
-}
-
-img.floatLeft {
-	display: block;
-	float: left;
-	margin: 0 15px;
-	height: 150px;
-}
-
-.p h2 {
-    text-align: center;
-    width: 75%;
-    margin: auto;
+    background-color: #510f58;
+    color: #fff;
 }
