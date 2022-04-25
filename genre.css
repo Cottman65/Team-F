@@ -1,0 +1,79 @@
+/*
+	Author:			Colee Cottrell
+	Assignment:		Personal Page
+	Date:			4/20/2022
+	Purpose:		Creating my personal webpage
+*/
+
+body, p {
+	font-family: 'Antic', sans-serif;
+	font-size: 1.2em;
+	background-color: #f2d9a5;
+	color: #000;
+}
+
+header {
+	height: 50px;
+	background-color: #ffa600;
+	color: #fff;
+	padding: 25px 0;
+}
+
+img.floatLeft {
+	display: block;
+	float: left;
+	margin: 0 15px;
+	height: 150px;
+}
+
+img.floatRight {
+	display: block;
+	float: right;
+	margin: 0 15px;
+	height: 150px;
+}
+
+.clearBoth {
+	clear: both;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	border-bottom: 2px solid;
+	color: #000;
+}
+
+header h1, header h2 {
+	border-width: 0;
+	color: #fff;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #510f58;
+    height: auto;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-bottom {
+    background: #510f58;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 18px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    background-color: #510f58;
+    color: #fff;
+}
