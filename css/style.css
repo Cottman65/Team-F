@@ -89,6 +89,6 @@ li{
 }
 
 .nav-element{
-	display: block;
 	padding: 4px;
+	float: left;
 }
